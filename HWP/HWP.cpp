@@ -3,6 +3,8 @@
 
 #include "stdafx.h"
 #include <iostream>
+#include "Burrito.h"
+
 using namespace std;
 
 
@@ -13,8 +15,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	x = 0;
 	int p;
 	p = 6; 
-	cout << "hi" << endl;
-
+	cout << "Hi" << endl;
+	Burrito bo;
 	
 	return 0;
 }
